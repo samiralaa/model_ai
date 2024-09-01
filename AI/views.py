@@ -128,11 +128,7 @@ def compare_videos(request):
             os.remove(video1_path)
         if os.path.exists(video2_path):
             os.remove(video2_path)
-@api_view(["GET"])
-def filter_pdf():
-    # Assuming you want to process the PDF or perform some logic here
-    # For now, just return a static JSON response
-    return JsonResponse({"message": "Faces do not match."})
+
 
 def home(request):
     return HttpResponse("Welcome to the home page!")
