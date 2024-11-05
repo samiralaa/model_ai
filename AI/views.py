@@ -131,7 +131,7 @@ def compare_videos(request):
 
 
 def home(request):
-    return HttpResponse("Welcome to the home page!")
+    return HttpResponse("Welcome to ddddthe home page!")
 
 # login
 # email
